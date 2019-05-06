@@ -15,8 +15,11 @@
   * Import FONTS   
 
    FontManager.shared.setFontBaseurl(urlString: fontBaseUrl)
+   
    FontManager.shared.setFonts(list: fontList)
+   
    FontManager.shared.registerAllFont()
+   
    FontManager.shared.downloadAllFont()
    
        do {
@@ -34,8 +37,11 @@
  2. If you have Fonts Url list.
  
  FontManager.shared.setfontsRemoteUrls(fontRemoteUrls: remoteUrls)
+ 
  FontManager.shared.setisuseRemoteUrls(status: true)
+ 
  FontManager.shared.registerAllFont()
+ 
  FontManager.shared.downloadAllFont()
  
     do {
